@@ -1,0 +1,26 @@
+Source: node-for-own
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-for-in <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-for-own
+Vcs-Git: https://salsa.debian.org/js-team/node-for-own.git
+Homepage: https://github.com/jonschlinkert/for-own
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-for-own
+Architecture: all
+Depends: ${misc:Depends}
+ , node-for-in
+Description: Iterate over the own enumerable properties of an object
+ Iterate over the own enumerable properties of an object, and return an object
+ with properties that evaluate to true from the callback. Exit early by
+ returning `false`. JavaScript/Node.js.
+ .
+ Node.js is an event-based server-side JavaScript engine.

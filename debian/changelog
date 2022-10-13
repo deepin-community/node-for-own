@@ -1,0 +1,43 @@
+node-for-own (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on node-for-in.
+    + node-for-own: Drop versioned constraint on node-for-in in Depends.
+
+  [ Yadd ]
+  * Bump debhelper from old 12 to 13.
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 11:20:59 +0100
+
+node-for-own (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 Jan 2018 23:44:27 +0530
+
+node-for-own (0.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #842655)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 31 Oct 2016 11:42:16 +0530
