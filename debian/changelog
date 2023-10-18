@@ -1,3 +1,10 @@
+node-for-own (1.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-for-own: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 09:49:57 +0000
+
 node-for-own (1.0.0-2) unstable; urgency=medium
 
   * Team upload

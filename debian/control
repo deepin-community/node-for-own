@@ -18,6 +18,7 @@ Package: node-for-own
 Architecture: all
 Depends: ${misc:Depends}
  , node-for-in
+Multi-Arch: foreign
 Description: Iterate over the own enumerable properties of an object
  Iterate over the own enumerable properties of an object, and return an object
  with properties that evaluate to true from the callback. Exit early by
